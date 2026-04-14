@@ -17,6 +17,23 @@ const EXP = [
     ],
   },
   {
+    company: 'Wipro private limited',
+    role: 'Generative AI Training',
+    period: '2025 3 Months',
+    location: 'Hyderabad',
+    type: 'Internship',
+    color: 'from-pink-500/20 to-slate-600/10',
+    accentCol: 'text-pink-400',
+    dotCol: 'bg-pink-400',
+    bullets: [
+      'I had the incredible opportunity to work on a project titled "Transcript Generator"',
+      'Real-world project development exposure',
+      'Problem-solving and analytical thinking',
+      'Professional work environment experience',
+      'Guidance from industry experts at Wipro',
+    ],
+  },
+  {
     company: 'Besant Technologies',
     role: 'Full Stack Web Development Training',
     period: '6 Months',
@@ -46,7 +63,7 @@ export default function Experience({ isDark }) {
       </p>
 
       <h2
-        className={`font-syne font-black mb-14 ${isDark ? 'text-white' : 'text-gray-900'}`}
+        className={`font-syne font-black mb-14 ${isDark ? 'text-white' : 'text-gray-900'} `}
         style={{ fontSize: 'clamp(2rem, 4vw, 2.8rem)' }}
       >
         Experience
