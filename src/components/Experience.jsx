@@ -19,7 +19,7 @@ const EXP = [
   {
     company: 'Wipro private limited',
     role: 'Generative AI Training',
-    period: '2025 3 Months',
+    period: '2025',
     location: 'Hyderabad',
     type: 'Internship',
     color: 'from-pink-500/20 to-slate-600/10',
