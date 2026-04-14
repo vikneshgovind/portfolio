@@ -85,7 +85,7 @@ export default function Contact({ isDark }) {
     : 'bg-white border-gray-200'
 
   return (
-    <section className="px-8 py-20 max-w-6xl mx-auto">
+    <section className="px-8 py-20 max-w-6xl mx-auto" id='contact'>
 
       <h2 className="text-3xl font-bold mb-10">Contact</h2>
 

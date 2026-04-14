@@ -14,7 +14,8 @@ export default function Footer({ isDark }) {
         {/* Left */}
         <div className="flex flex-col md:flex-row items-center gap-2 text-center md:text-left">
           <span className="font-syne font-black text-aqua text-lg px-2.5 py-0.5 rounded-lg
-                            border border-aqua/25 bg-aqua/10">
+                            border border-aqua/25 bg-aqua/10 hover:cursor-pointer" 
+                            onClick={() => document.getElementById('hero')?.scrollIntoView({behavior:"smooth"})}>
             VG
           </span>
           <div>

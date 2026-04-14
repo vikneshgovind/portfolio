@@ -39,7 +39,7 @@ const SKILLS = [
     color: 'from-rose-500/10 to-transparent',
     border: 'border-rose-500/20 hover:border-rose-400/50',
     iconCol: 'text-rose-400',
-    tags: ['Git', 'GitHub', 'Postman', 'VS Code', 'Eclipse'],
+    tags: ['Git', 'GitHub', 'Postman', 'VS Code', 'Eclipse', 'Intellij IDEA'],
   },
   {
     Icon: FaLightbulb,
@@ -57,7 +57,7 @@ export default function Skills({ isDark }) {
     : 'bg-white border-gray-200'
 
   return (
-    <section id="skills" className="px-8 md:px-14 lg:px-20 py-24 max-w-6xl mx-auto">
+    <section id="skills" className="px-8 md:px-14 lg:px-20 py-20 max-w-6xl mx-auto">
 
       <p className="flex items-center gap-3 text-[11px] tracking-[0.18em] uppercase text-aqua mb-3">
         <span className="w-7 h-px bg-aqua/60" />

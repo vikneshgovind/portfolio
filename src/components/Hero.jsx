@@ -6,24 +6,17 @@ import viknesh_resume from "../assets/resume/Viknesh_Java_FullStack_Developer_Re
 export default function Hero({ isDark }) {
   return (
     <div className='flex md:justify-evenly md:flex-row flex-col-reverse relative'>
+
         {/* Glow background */}
         <div className="absolute inset-0 pointer-events-none">
-            {/* <div className="absolute -top-32 -right-32 w-[600px] h-[600px] rounded-full bg-cyan-500/10 blur-[100px]" />
-            <div className="absolute bottom-0 left-[5%] w-[400px] h-[400px] rounded-full bg-pink-500/10 blur-[80px]" /> */}
             <div className="absolute bottom-0 left-[5%] w-[600px] h-[600px] rounded-full bg-pink-500/10 blur-[80px]" />
             <div className="absolute -top-32 -right-32 w-[400px] h-[400px] rounded-full bg-cyan-500/10 blur-[100px]" />
         </div>
 
         <section
         id="hero"
-        className="relative min-h-screen flex flex-col justify-center px-8 md:px-14 lg:px-20 pt-24 md:pt-16 pb-16 overflow-hidden"
+        className="relative min-h-screen flex flex-col justify-center px-8 md:px-14 lg:px-20 -mt-24 sm:mt-0 pt-24 md:pt-16 pb-1 sm:pb-16 overflow-hidden"
         >
-
-        {/* Glow background
-        <div className="absolute inset-0 pointer-events-none">
-            <div className="absolute -top-32 -right-32 w-[600px] h-[600px] rounded-full bg-cyan-500/10 blur-[100px]" />
-            <div className="absolute bottom-0 left-[5%] w-[400px] h-[400px] rounded-full bg-pink-500/10 blur-[80px]" />
-        </div> */}
 
         <div className="relative z-10 max-w-3xl">
 
@@ -113,7 +106,7 @@ export default function Hero({ isDark }) {
         </div>
         </section>
 
-        <div className='h-full mt-8 md:mt-0 flex-row md:text-center flex md:flex-col justify-center md:min-h-screen'>
+        <div className='h-full mt-24 md:mt-0 flex-row md:text-center flex md:flex-col justify-center md:min-h-screen'>
            
             <div className=''>
                 <img src={viknesh_profile} alt="Vicky Sparrow" className='h-80 w-80 rounded-full border-white border-4' />

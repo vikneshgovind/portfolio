@@ -58,7 +58,7 @@ export default function Sidebar({ theme, onToggle }) {
   return (
     <>
       {/* Mobile Top Bar */}
-      <header className={`fixed top-0 left-0 right-0 h-16 z-[300] flex items-center justify-between px-5 md:hidden backdrop-blur-xl border-b
+      <header className={`fixed top-0 left-0 right-0 h-16 z-[300] flex items-center justify-between px-5 sm:hidden backdrop-blur-xl border-b
         ${isDark ? 'bg-dark-surface/90 border-dark-border' : 'bg-white/90 border-gray-200'}`}>
 
         <button onClick={() => go('hero')} className="font-bold px-3 py-1 border rounded text-aqua">

@@ -20,7 +20,7 @@ export default function App() {
 
   return (
     <div
-      className={`min-h-screen transition-colors duration-300
+      className={`min-h-screen transition-colors duration-300 overflow-x-hidden
                    ${isDark ? 'bg-dark-bg text-white' : 'bg-gray-50 text-gray-900'}`}
     >
       {/* Noise overlay */}
