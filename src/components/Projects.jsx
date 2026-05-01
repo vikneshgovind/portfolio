@@ -12,6 +12,7 @@ const PROJECTS = [
     numCol: "text-aqua",
     border: "border-dark-border hover:border-aqua/40",
     glowCol: "rgba(127,255,212,0.08)",
+    viewCode: "https://github.com/vikneshgovind/sachdeva-roadlines-desktop-application",
   },
   {
     num: "02",
@@ -23,6 +24,7 @@ const PROJECTS = [
     numCol: "text-violet-400",
     border: "border-dark-border hover:border-violet-400/40",
     glowCol: "rgba(167,139,250,0.08)",
+    viewCode: "https://github.com/vikneshgovind/sachdeva-roadlines-desktop-application",
   },
 ];
 
@@ -55,7 +57,7 @@ export default function Projects({ isDark }) {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         {PROJECTS.map(
           (
-            { num, name, sub, desc, stack, gradient, numCol, border, glowCol },
+            { num, name, sub, desc, stack, gradient, numCol, border, glowCol, viewCode },
             i
           ) => (
             <div
@@ -133,7 +135,8 @@ export default function Projects({ isDark }) {
                 {/* Actions */}
                 <div className="flex items-center gap-3 pt-2">
                   <a
-                    href="https://github.com/vikneshgovind"
+                    // href="https://github.com/vikneshgovind"
+                    href={viewCode}
                     target="_blank"
                     rel="noopener noreferrer"
                     className={`flex items-center gap-2 text-xs font-semibold transition-all duration-200 hover:-translate-y-0.5 ${
