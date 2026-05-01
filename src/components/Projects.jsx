@@ -24,7 +24,7 @@ const PROJECTS = [
     numCol: "text-violet-400",
     border: "border-dark-border hover:border-violet-400/40",
     glowCol: "rgba(167,139,250,0.08)",
-    viewCode: "https://github.com/vikneshgovind/sachdeva-roadlines-desktop-application",
+    viewCode: "https://github.com/vikneshgovind/National-Cruise-Tourist",
   },
 ];
 
