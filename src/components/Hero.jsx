@@ -1,7 +1,7 @@
 import { FaArrowRight, FaDownload, FaMapMarkerAlt } from 'react-icons/fa'
 
 import viknesh_profile from "../assets/images/Original-Image.png"
-import viknesh_resume from "../assets/resume/Viknesh_Java_FullStack_Developer_Resume.pdf"
+import viknesh_resume from "../assets\resume\Viknesh_FullStack_Developer_Resume.pdf"
 
 export default function Hero({ isDark }) {
   return (
