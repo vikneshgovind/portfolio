@@ -14,7 +14,7 @@ import {
   FaChevronRight,
 } from 'react-icons/fa'
 
-import viknesh_resume from "../assets/resume/Viknesh_Java_FullStack_Developer_Resume.pdf"
+import viknesh_resume from "../assets/resume/Viknesh_FullStack_Developer_Resume.pdf"
 
 const NAV = [
   { id: 'hero',       label: 'Home',       Icon: FaHome },

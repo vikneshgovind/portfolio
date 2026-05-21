@@ -77,7 +77,7 @@ export default function Hero({ isDark }) {
                 onClick={() => {
                     const link = document.createElement('a')
                     link.href = viknesh_resume
-                    link.download = "Viknesh_Java_FullStack_Developer_Resume"
+                    link.download = "Viknesh_FullStack_Developer_Resume"
                     link.click()
                 }}
                 className="flex items-center gap-2 px-6 py-3 border rounded-lg text-gray-500 hover:text-amber-500"
